@@ -4,7 +4,6 @@ from typing import List
 from typing import Dict
 
 import requests
-from fake_useragent import UserAgent
 
 
 class NewsParser():
@@ -92,45 +91,24 @@ class NewsParser():
         List[Dict]: A list of news items objects.
         """
 
-        # Parse the text.
         root = ET.fromstring(response_content)
         entries = []
-
-        # Grab the path.
-        path = self.paths[self.client]
-
-        # Find all the news items.
-        for news_item in root.findall(path):
-
-            # Initialize a new dictionary.
-            item_dict = {}
-
-            # Loop through each element.
-            for news_item_element in news_item.iter():
-
-                # Grab the news tag.
-                news_tag: str = news_item_element.tag
-
-                # Replace the namespace.
-                for path in self.namespaces[self.client]:
-
-                    # Clean the tag.
-                    news_tag = news_tag.replace(path, "")
-
-                # Grab the text.
-                if news_item_element.text:
-                    news_value = news_item_element.text.strip()
-                else:
-                    news_value = ""
-
-                # Store it.
-                item_dict[news_tag] = news_value
-
-            entries.append(item_dict)
-
+        for item in root.findall('.//item'):
+            entry = {
+                'title': item.find('title').text if item.find('title') is not None else '',
+                'link': item.find('link').text if item.find('link') is not None else '',
+                'pubDate': item.find('pubDate').text if item.find('pubDate') is not None else '',
+                'source': item.find('source').text if item.find('source') is not None else '',
+                'guid': item.find('guid').text if item.find('guid') is not None else '',
+                'media_content': item.find('{http://search.yahoo.com/mrss/}content').attrib.get('url') if item.find('{http://search.yahoo.com/mrss/}content') is not None else '',
+                'media_credit': item.find('{http://search.yahoo.com/mrss/}credit').text if item.find('{http://search.yahoo.com/mrss/}credit') is not None else ''
+            }
+            entries.append(entry)
         return entries
 
-    def _make_request(self, url: str, params: dict = None) -> List[Dict]:
+
+    def _make_request(self, url: str, params: Dict = None) -> str:
+
         """Used to make a request for each of the news clients.
 
         ### Arguments:
@@ -144,15 +122,11 @@ class NewsParser():
         List[Dict]: A list of news items objects.
         """
 
-        # Fake the headers.
+        user_agent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'
+
         headers = {
-            'user-agent': UserAgent().edge
+            'user-agent': user_agent
         }
-
-        # Grab the response.
-        response = requests.get(url=url, headers=headers, params=params)
-
-        # Parse the response.
-        data = self._parse_response(response_content=response.content)
-
-        return data
+        response = requests.get(url, headers=headers, params=params)
+        response.raise_for_status()
+        return response.text

@@ -1,0 +1,94 @@
+[
+  {
+    "Title": "Palantir Stock Hits New Highs. The Company Has Acquired Some EV Shares.",
+    "Link": "https://www.barrons.com/articles/palantir-stock-price-record-ev-faraday-67399045?siteid=yhoof2&yptr=yahoo",
+    "Publication Date": "2024-10-09T16:50:00Z",
+    "Source_ID": "CNBC.investing_feeds.news",
+    "Topic": "news",
+    "Summary": "Error fetching article: 401 Client Error: HTTP Forbidden for url: https://www.barrons.com/articles/palantir-stock-price-record-ev-faraday-67399045?siteid=yhoof2&yptr=yahoo",
+    "Sentiment": {
+      "label": "positive",
+      "score": 0.7129053473472595
+    },
+    "StockAnalysis": {
+      "stocks": [],
+      "market_update": "Other",
+      "investor_types": []
+    }
+  },
+  {
+    "Title": "Home Depot to Force Corporate Staff to Work Shifts in Stores",
+    "Link": "https://finance.yahoo.com/news/home-depot-force-corporate-staff-204000404.html",
+    "Publication Date": "2024-10-08T20:40:00Z",
+    "Source_ID": "CNBC.investing_feeds.news",
+    "Topic": "news",
+    "Summary": "They will be mandated to work 8-hour shifts.",
+    "Sentiment": {
+      "label": "neutral",
+      "score": 0.9782658219337463
+    },
+    "StockAnalysis": {
+      "stocks": [],
+      "market_update": "Other",
+      "investor_types": []
+    }
+  },
+  {
+    "Title": "Hurricane Helene's Destruction Sparks Search For Safety: 10 States Where Property Is At The Lowest Risk",
+    "Link": "https://finance.yahoo.com/news/hurricane-helenes-destruction-sparks-search-134539302.html",
+    "Publication Date": "2024-10-09T13:45:39Z",
+    "Source_ID": "CNBC.investing_feeds.news",
+    "Topic": "news",
+    "Summary": "As Hurricane Helene\u2019s devastating toll rises to at least 215 fatalities, with thousands still missing, homeowners across the country are taking a hard look at where they live and the risks they face.According to data issued by Realtor.com, more than 730,000 homes remain without power over a week after the storm, prompting many Americans to consider safer ground for their next move. The scope of 2024\u2019s extreme weather has been unprecedented. According to the report, natural disasters have inflict",
+    "Sentiment": {
+      "label": "neutral",
+      "score": 0.9917415380477905
+    },
+    "StockAnalysis": {
+      "stocks": [],
+      "market_update": "Other",
+      "investor_types": []
+    }
+  },
+  {
+    "Title": "Market Update: AXON",
+    "Link": "https://finance.yahoo.com/research/reports/ARGUS_41465_MarketUpdate_1728492677000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
+    "Publication Date": "2024-10-09T16:51:17Z",
+    "Source_ID": "CNBC.investing_feeds.news",
+    "Topic": "news",
+    "Summary": "Error fetching article: 404 Client Error: Not Found for url: https://finance.yahoo.com/research/reports/ARGUS_41465_MarketUpdate_1728492677000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
+    "Sentiment": {
+      "label": "neutral",
+      "score": 0.9998787641525269
+    },
+    "StockAnalysis": {
+      "stocks": [],
+      "market_update": "Other",
+      "investor_types": []
+    }
+  },
+  {
+    "Title": "Billionaire Ken Griffin Just Bought 7.9 Million Shares of This Beaten-Down Pharmaceutical Stock as It Eyes the Weight Loss Market",
+    "Link": "https://finance.yahoo.com/news/billionaire-ken-griffin-just-bought-134500439.html",
+    "Publication Date": "2024-10-09T13:45:00Z",
+    "Source_ID": "CNBC.investing_feeds.news",
+    "Topic": "news",
+    "Summary": "Ken Griffin's Citadel continues to add to its position in Pfizer.",
+    "Sentiment": {
+      "label": "neutral",
+      "score": 0.9908233880996704
+    },
+    "StockAnalysis": {
+      "stocks": [
+        {
+          "ticker": "PFE"
+        }
+      ],
+      "market_update": "Market News and Analysis",
+      "investor_types": [
+        "Long-term Investor",
+        "Value Investor"
+      ]
+    }
+  }
+]

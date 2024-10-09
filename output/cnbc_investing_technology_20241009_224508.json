@@ -1,0 +1,59 @@
+[
+  {
+    "Title": "Amazon tests adding robot warehouses to Whole Foods so shoppers can pick up other orders at checkout",
+    "Link": "https://www.cnbc.com/2024/10/09/amazon-tests-adding-robot-warehouses-to-whole-foods.html",
+    "Publication Date": "Wed, 09 Oct 2024 20:02:39 GMT",
+    "Summary": "Amazon said Wednesday it's testing adding mini warehouses to Whole Foods supermarkets as part of a bid to attract more shoppers to its stores and away from other grocery competitors.\nAmazon said it's looking to \"eliminate those extra trips\" made by shoppers to other grocery stores.\n\"Customers shopping at Whole Foods Market today are looking for natural and organic products,\" Varadarajan said during a presentation on Wednesday.\nWith our micro fulfillment center, we can reduce the need for our customers to visit different stores or make multiple online orders.\"\nAmazon has for years angled to gobble up a bigger share of the grocery market.",
+    "Sentiment": [
+      0.9936093091964722,
+      "positive"
+    ],
+    "Source_ID": "CNBC.investing_feeds.technology",
+    "Topic": "technology",
+    "Stocks": [
+      "AMZN"
+    ],
+    "Market Update": "Market News and Analysis",
+    "Investor Types": [
+      "Growth Investor",
+      "Long-term Investor",
+      "Value Investor"
+    ]
+  },
+  {
+    "Title": "OpenAI says bad actors are using its platform to disrupt elections, but with little 'viral engagement'",
+    "Link": "https://www.cnbc.com/2024/10/09/openai-says-more-cyber-actors-using-its-platform-to-disrupt-elections.html",
+    "Publication Date": "Wed, 09 Oct 2024 20:00:02 GMT",
+    "Summary": "OpenAI is increasingly becoming a platform of choice for cyber actors looking to influence democratic elections across the globe.\nThe threats ranged from AI-generated website articles to social media posts by fake accounts.\nThe social media content related mostly to elections in the U.S. and Rwanda, and to a lesser extent, elections in India and the EU, OpenAI said.\nAnd in May, an Israeli company used ChatGPT to generate social media comments about elections in India.\nThe company said that while most social media posts it identified received few likes or shares, some real people did reply to the AI-generated posts.",
+    "Sentiment": [
+      0.9977721571922302,
+      "neutral"
+    ],
+    "Source_ID": "CNBC.investing_feeds.technology",
+    "Topic": "technology",
+    "Stocks": [],
+    "Market Update": "Other",
+    "Investor Types": []
+  },
+  {
+    "Title": "Nvidia shares are up 25% in the last month, rallying near a record ahead of tech earnings",
+    "Link": "https://www.cnbc.com/2024/10/09/nvidia-stock-up-25percent-in-a-month-as-stock-closes-in-on-new-record.html",
+    "Publication Date": "Wed, 09 Oct 2024 20:09:12 GMT",
+    "Summary": "Nvidia CEO Jensen Huang presents \"Blackwell\" at an event ahead of the Computex forum, in Taipei, Taiwan, on June 2, 2024.\nNvidia shares have surged 25% in the last month and are closing in on a record ahead of tech earnings season in the coming weeks, when top customers like Meta , Microsoft and Alphabet will update shareholders on their expected investments in artificial intelligence.\nThe stock closed down slightly on Wednesday at $132.65, just shy of its closing high of $135.58 reached in June.\nDemand is so high that Nvidia anticipates shipments for its current-generation Hopper chip to increase over the next two quarters.\nCorrection: Nvidia's closing high of $135.58 was reached in June.",
+    "Sentiment": [
+      0.9996832609176636,
+      "positive"
+    ],
+    "Source_ID": "CNBC.investing_feeds.technology",
+    "Topic": "technology",
+    "Stocks": [
+      "NVDA"
+    ],
+    "Market Update": "Earnings Reports",
+    "Investor Types": [
+      "Growth Investor",
+      "Long-term Investor",
+      "Value Investor"
+    ]
+  }
+]
